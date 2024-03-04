@@ -52,7 +52,6 @@ serde_path_to_error = "0.1.*"
 tracing = "0.1"
 tracing-wasm = "0.2"
 
-# A way to quickly test with local version of `core` crates
-# [patch.'https://github.com/Stremio/stremio-core']
-# stremio-core = { path = "../core" }
+[patch.'https://github.com/Stremio/stremio-core']
+stremio-core = { path = "../stremio-core" }
 
